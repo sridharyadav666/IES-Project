@@ -1,0 +1,12 @@
+Hi  {FNAME} {LNAME} :
+<br/>
+We are grateful to inform you that your employment is being confirmed
+ as Case-Worker.<br>
+We look forward to your valuable contributions and wish you all the very best for 
+a fruitful career with IES .
+<br/>
+<br/>
+
+
+Thanks & Regards,<br/>
+IES Kentucky.<br/>

@@ -1,0 +1,39 @@
+server:
+  port: 9797
+
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    password: nani
+    url: jdbc:oracle:thin:@localhost:1523:orcln
+    username: system
+  
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  
+  mvc:
+    view:
+      prefix: /views/
+      suffix: .jsp
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: kookatlasridharyadav@gmail.com
+    password: 9949308334
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+          auth: true
+          
+          
+app:
+    messages:
+     accoCreatedSucc: Account Created Successfully
+     accoUpdateSucc: Account Updated Successfully
+     mailSubject: Account Creation Successfull | IES
+                      
